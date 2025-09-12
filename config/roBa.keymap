@@ -40,7 +40,7 @@
         };
 
         CapsLock {
-            bindings = <&kp CAPS>;
+            bindings = <&caps_word>;
             key-positions = <11 10>;
         };
 
@@ -72,6 +72,13 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+        };
+
+        CAPSLOCK_behavior: CAPSLOCK_behavior {
+            compatible = "zmk,behavior-caps-word";
+            label = "CAPSLOCK_BEHAVIOR";
+            #binding-cells = <0>;
+            continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
         };
     };
 
