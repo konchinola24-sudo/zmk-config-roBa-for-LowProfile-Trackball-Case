@@ -53,6 +53,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        CapsLock {
+            bindings = <&kp CAPS>;
+            key-positions = <34 42>;
+        };
     };
 
     macros {
