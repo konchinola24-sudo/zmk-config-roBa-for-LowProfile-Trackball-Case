@@ -19,15 +19,6 @@
 ---
 include:
  - board: seeeduino_xiao_ble
-   shield: roBa_R
-   snippet: studio-rpc-usb-uart
- - board: seeeduino_xiao_ble
-   shield: roBa_L
- - board: seeeduino_xiao_ble
-   shield: settings_reset
----
-include:
- - board: seeeduino_xiao_ble
    shield: roBa_R rgbled_adapter // 追記
    snippet: studio-rpc-usb-uart
  - board: seeeduino_xiao_ble
