@@ -82,10 +82,6 @@
         // マウスレイヤーに &mkp_exit_AML LCLK 等割り当て
     };
 };
-    keymap {
-        // マウスレイヤーに &mkp_exit_AML LCLK 等割り当て
-    };
-};
 
     macros {
         to_layer_0: to_layer_0 {
