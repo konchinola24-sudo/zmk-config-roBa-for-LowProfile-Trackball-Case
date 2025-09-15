@@ -78,11 +78,6 @@
         };
     };
 
-    keymap {
-        // マウスレイヤーに &mkp_exit_AML LCLK 等割り当て
-    };
-};
-
     macros {
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
@@ -148,7 +143,7 @@
 
         MOUSE {
             bindings = <
-&trans     &trans     &trans     &trans     &trans                         &trans    &trans    &trans    &trans    &trans
+&trans     &trans     &trans     &trans     &trans                         &trans    &mkp_exit_AML LCLK    &trans    &trans    &trans
 &kp LC(A)  &kp LC(S)  &kp LC(D)  &trans     &kp LC(P)  &trans      &trans  &mkp MB5  &trans    &trans    &trans    &trans
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans     &trans      &trans  &mkp MB4  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                  &trans
