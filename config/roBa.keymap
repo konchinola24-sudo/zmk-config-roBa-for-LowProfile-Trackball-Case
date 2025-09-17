@@ -42,17 +42,17 @@
 
         CapsLock {
             bindings = <&kp LS(CAPSLOCK)>;
-            key-positions = <11 10>;
+            key-positions = <10 21>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+        IME_ON {
+            bindings = <&kp INT_HENKAN>;
             key-positions = <20 21>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        IME_OFF {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <10 11>;
         };
     };
 
