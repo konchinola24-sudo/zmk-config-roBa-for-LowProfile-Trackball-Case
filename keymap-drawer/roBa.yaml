@@ -21,7 +21,7 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: SCROLL}
+  - L
   - '-'
   - Z
   - X
@@ -34,16 +34,16 @@ layers:
   - M
   - ','
   - .
-  - /
-  - {t: INT MUHENKAN, h: NUM}
-  - LEFT WIN
+  - {t: /, h: SCROLL}
+  - {t: '@', h: NUM}
+  - {t: LEFT WIN, h: MOUSE}
   - {t: INS, h: SYMBOLS}
   - LEFT SHIFT
   - LCTRL
   - {t: SPACE, h: LEFT ALT}
   - BACKSPACE
   - ENTER
-  - {t: INT HENKAN, h: Bluetooth}
+  - {t: '!', h: Bluetooth}
   SYMBOLS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,7 +212,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -241,7 +241,7 @@ layers:
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -254,7 +254,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -313,9 +313,9 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [11, 10]
+- p: [10, 21]
   k: Sft+CAPSLOCK
 - p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
+  k: INT HENKAN
+- p: [10, 11]
+  k: INT MUHENKAN
