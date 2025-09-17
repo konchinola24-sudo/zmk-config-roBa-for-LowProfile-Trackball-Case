@@ -47,16 +47,16 @@ layers:
   SYMBOLS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '#'
-  - $
   - '%'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''''
   - '`'
   - (
   - )
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '#'
+  - $
   - '!'
   - '@'
   - {t: ▽, type: trans}
@@ -138,10 +138,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
   - {t: ▽, type: trans}
+  - PAGE DOWN
   - UP ARROW
-  - {t: ▽, type: trans}
+  - PAGE UP
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+DOWN ARROW
@@ -150,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - END
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -163,9 +163,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
