@@ -97,6 +97,8 @@
 &trans     &trans      &trans           &trans       &trans         &trans      &trans  &kp SEMICOLON         &kp LS(SEMICOLON)      &kp DOUBLE_QUOTES  &kp TILDE          &trans
 &trans     &trans      &trans           &trans       &trans         &trans      &trans  &trans                                                                             &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         NUM {
@@ -106,6 +108,8 @@
 &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
 &trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                  &kp PERIOD
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         ARROW {
@@ -127,7 +131,7 @@
 &trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         SCROLL {
