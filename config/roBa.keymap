@@ -92,10 +92,10 @@
 
         SYMBOLS {
             bindings = <
-&trans     &trans      &kp PERCENT      &trans         &trans                      &kp SQT        &kp GRAVE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&kp POUND  &kp DOLLAR  &kp EXCLAMATION  &kp AT_SIGN    &trans  &trans      &trans  &kp LESS_THAN  &kp GREATER_THAN   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&trans     &trans      &kp CARET        &kp AMPERSAND  &trans  &trans      &trans  &kp SEMICOLON  &kp LS(SEMICOLON)  &kp DOUBLE_QUOTES     &kp TILDE              &trans
-&trans     &trans      &trans           &trans         &trans  &trans      &trans  &trans                                                                         &trans
+&trans     &trans      &kp PERCENT      &kp CARET    &trans                             &kp SQT               &kp GRAVE              &kp LESS_THAN      &kp GREATER_THAN   &kp BACKSLASH
+&kp POUND  &kp DOLLAR  &kp EXCLAMATION  &kp AT_SIGN  &kp AMPERSAND  &trans      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &trans
+&trans     &trans      &trans           &trans       &trans         &trans      &trans  &kp SEMICOLON         &kp LS(SEMICOLON)      &kp DOUBLE_QUOTES  &kp TILDE          &trans
+&trans     &trans      &trans           &trans       &trans         &trans      &trans  &trans                                                                             &trans
             >;
         };
 
