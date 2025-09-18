@@ -14,7 +14,7 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: ARROW}
+  - F
   - G
   - Sft+Gui+S
   - CONTEXT MENU
@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: ARROW}
   - Z
   - X
   - C
@@ -48,29 +48,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '%'
-  - {t: ▽, type: trans}
+  - ^
   - {t: ▽, type: trans}
   - ''''
   - '`'
-  - (
-  - )
+  - <
+  - '>'
   - \
   - '#'
   - $
   - '!'
   - '@'
+  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '>'
+  - (
+  - )
   - '['
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ^
-  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -134,21 +134,14 @@ layers:
   - .
   ARROW:
   - {t: ▽, type: trans}
-  - Gui+UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - PAGE DOWN
   - UP ARROW
   - PAGE UP
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+DOWN ARROW
-  - Gui+RIGHT ARROW
-  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+LEFT ARROW
+  - Gui+UP ARROW
+  - Sft+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -156,16 +149,23 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+TAB
-  - Alt+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
+  - {type: held}
   - {t: ▽, type: trans}
   - END
   - {t: ▽, type: trans}
   - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -187,11 +187,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+A
-  - Ctl+S
-  - Ctl+D
   - {t: ▽, type: trans}
-  - Ctl+P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -199,10 +199,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
