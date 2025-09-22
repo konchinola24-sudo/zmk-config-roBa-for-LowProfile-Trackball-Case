@@ -309,7 +309,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [0, 9]
+- p: [10, 21]
   k: Sft+CAPSLOCK
 - p: [18, 19]
   k: INT HENKAN
