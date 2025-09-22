@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - {t: /, h: SCROLL}
-  - '@'
+  - TAB
   - {t: LEFT WIN, h: MOUSE}
   - {t: INS, h: SYMBOLS}
   - LEFT SHIFT
@@ -309,8 +309,6 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [11, 12]
-  k: TAB
 - p: [12, 13]
   k: Sft+TAB
 - p: [10, 21]
