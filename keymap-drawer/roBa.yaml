@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: NUM}
+  - {t: P, h: ARROW}
   - A
   - S
   - D
@@ -22,20 +22,20 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: ARROW}
+  - {t: '-', h: NUM}
   - Z
   - X
   - C
   - V
   - B
-  - ESCAPE
+  - TAB
   - DEL
   - N
   - M
   - ','
   - .
   - {t: /, h: SCROLL}
-  - TAB
+  - ESCAPE
   - {t: LEFT WIN, h: MOUSE}
   - {t: INS, h: SYMBOLS}
   - LEFT SHIFT
@@ -48,13 +48,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '%'
-  - ^
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''''
-  - '`'
   - <
   - '>'
   - \
+  - {t: ▽, type: trans}
   - '#'
   - $
   - '!'
@@ -62,6 +62,7 @@ layers:
   - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '`'
   - (
   - )
   - '['
@@ -73,12 +74,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ;
   - Sft+;
   - '"'
   - '~'
-  - {t: ▽, type: trans}
+  - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -98,7 +98,7 @@ layers:
   - F8
   - F9
   - F12
-  - {type: held}
+  - RIGHT ALT
   - '*'
   - '4'
   - '5'
@@ -109,8 +109,8 @@ layers:
   - F4
   - F5
   - F6
-  - F11
-  - {t: ▽, type: trans}
+  - {t: F11, h: RIGHT SHIFT}
+  - {type: held}
   - '0'
   - '1'
   - '2'
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - .
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,11 +138,11 @@ layers:
   - {t: ▽, type: trans}
   - UP ARROW
   - PAGE UP
-  - {t: ▽, type: trans}
-  - Sft+Gui+LEFT ARROW
+  - Gui+Sft+LEFT ARROW
   - Gui+UP ARROW
-  - Sft+Gui+RIGHT ARROW
+  - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - END
   - LEFT ARROW
@@ -152,9 +152,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
-  - Gui+DOWN ARROW
   - Gui+RIGHT ARROW
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DOWN ARROW
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+TAB
-  - {t: ▽, type: trans}
+  - Gui+DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,11 +309,9 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [12, 13]
-  k: Sft+TAB
-- p: [10, 21]
+- p: [0, 9]
   k: Sft+CAPSLOCK
-- p: [20, 21]
+- p: [18, 19]
   k: INT HENKAN
-- p: [10, 11]
+- p: [13, 12]
   k: INT MUHENKAN
