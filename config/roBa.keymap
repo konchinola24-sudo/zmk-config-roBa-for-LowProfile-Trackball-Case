@@ -81,9 +81,9 @@
 
         default_layer {
             bindings = <
-&kp Q        &kp W           &kp E      &kp R           &kp T                                                  &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp Q        &kp W           &kp E      &kp R           &kp T                                                  &kp Y      &kp U  &kp I      &kp O    &lt 2 P
 &kp A        &kp S           &kp D      &kp F           &kp G      &kp LS(LG(S))           &kp K_CONTEXT_MENU  &kp H      &kp J  &kp K      &kp L    &lt 3 MINUS
-&kp Z        &kp X           &kp C      &kp V           &kp B      &lt 2 ESCAPE            &kp DEL             &kp N      &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
+&kp Z        &kp X           &kp C      &kp V           &kp B      &kp ESCAPE              &kp DEL             &kp N      &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
 &kp AT_SIGN  &lt 4 LEFT_WIN  &lt 1 INS  &kp LEFT_SHIFT  &kp LCTRL  &mt LEFT_ALT SPACE      &kp BACKSPACE       &kp ENTER                             &lt 6 EXCLAMATION
             >;
 
@@ -103,10 +103,10 @@
 
         NUM {
             bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &kp F10                      &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
-&trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans      &trans  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
-&trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
-&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                  &kp PERIOD
+&kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                      &kp F7  &kp F8  &kp F9  &kp F12  &trans
+&kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans      &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &trans      &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&kp PERIOD    &trans        &trans        &trans        &trans     &trans      &trans  &trans                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
