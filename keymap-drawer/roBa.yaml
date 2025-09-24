@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: NUM}
+  - {t: '-', h: SCROLL}
   - Z
   - X
   - C
@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: SCROLL}
+  - {t: /, h: NUM}
   - ESCAPE
   - {t: LEFT WIN, h: MOUSE}
   - {t: INS, h: ARROW}
@@ -98,7 +98,7 @@ layers:
   - F8
   - F9
   - F12
-  - RIGHT ALT
+  - {t: ▽, type: trans}
   - '*'
   - '4'
   - '5'
@@ -109,8 +109,8 @@ layers:
   - F4
   - F5
   - F6
-  - {t: F11, h: RIGHT SHIFT}
-  - {type: held}
+  - F11
+  - RIGHT ALT
   - '0'
   - '1'
   - '2'
@@ -121,8 +121,8 @@ layers:
   - F1
   - F2
   - F3
-  - F10
-  - {t: ▽, type: trans}
+  - {t: F10, h: RIGHT SHIFT}
+  - {type: held}
   - .
   - {t: ▽, type: trans}
   - Ctl+A
@@ -195,9 +195,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -207,9 +207,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB4'
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -239,10 +239,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,10 +251,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB4'
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
