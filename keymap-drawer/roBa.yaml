@@ -111,7 +111,7 @@ layers:
   - F5
   - F6
   - RIGHT ALT
-  - '0'
+  - .
   - '1'
   - '2'
   - '3'
@@ -123,9 +123,9 @@ layers:
   - F2
   - {t: F3, h: RIGHT SHIFT}
   - {type: held}
-  - .
-  - {t: ▽, type: trans}
   - Ctl+A
+  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
