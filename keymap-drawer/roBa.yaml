@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: TAB, h: SYMBOLS}
+  - {t: LEFT ALT, h: SPACE}
   - DEL
   - N
   - M
@@ -37,10 +37,10 @@ layers:
   - {t: /, h: NUM}
   - ESCAPE
   - {t: LEFT WIN, h: MOUSE}
-  - {t: INS, h: ARROW}
+  - {t: INS, h: SYMBOLS}
   - LEFT SHIFT
   - LCTRL
-  - {t: SPACE, h: LEFT ALT}
+  - {t: TAB, h: ARROW}
   - BACKSPACE
   - ENTER
   - {t: '!', h: Bluetooth}
@@ -72,7 +72,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
   - Sft+;
@@ -81,7 +81,7 @@ layers:
   - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,28 +133,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
-  - {t: ▽, type: trans}
-  - HOME
-  - TAB
+  - BACKSPACE
+  - DEL
+  - E
   - UP ARROW
-  - PAGE UP
+  - Alt+P
   - Gui+Sft+LEFT ARROW
   - Gui+UP ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - END
+  - Alt+M
   - LEFT ARROW
   - RIGHT ARROW
-  - PAGE DOWN
+  - Alt+J
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
+  - HOME
   - Sft+1
   - Sft+2
   - DOWN ARROW
@@ -162,17 +162,17 @@ layers:
   - Alt+2
   - Alt+3
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - Gui+TAB
   - Gui+DOWN ARROW
+  - PAGE DOWN
+  - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
