@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: LEFT ALT, h: SPACE}
+  - {t: INSERT, h: SYMBOLS}
   - DEL
   - N
   - M
@@ -37,10 +37,10 @@ layers:
   - {t: /, h: NUM}
   - ESCAPE
   - {t: LEFT WIN, h: MOUSE}
-  - {t: INS, h: SYMBOLS}
+  - {t: TAB, h: LEFT ALT}
+  - {t: SPACE, h: ARROW}
   - LEFT SHIFT
   - LCTRL
-  - {t: TAB, h: ARROW}
   - BACKSPACE
   - ENTER
   - {t: '!', h: Bluetooth}
@@ -72,7 +72,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - ;
   - Sft+;
@@ -81,7 +81,7 @@ layers:
   - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,10 +94,10 @@ layers:
   - '8'
   - '9'
   - '-'
+  - F12
   - F7
   - F8
   - F9
-  - F12
   - {t: ▽, type: trans}
   - '*'
   - '4'
@@ -106,10 +106,10 @@ layers:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F11
   - F4
   - F5
   - F6
-  - F11
   - RIGHT ALT
   - '0'
   - '1'
@@ -118,10 +118,10 @@ layers:
   - '='
   - Sft+R
   - {t: ▽, type: trans}
+  - F10
   - F1
   - F2
-  - F3
-  - {t: F10, h: RIGHT SHIFT}
+  - {t: F3, h: RIGHT SHIFT}
   - {type: held}
   - .
   - {t: ▽, type: trans}
@@ -135,7 +135,7 @@ layers:
   ARROW:
   - BACKSPACE
   - DEL
-  - E
+  - INSERT
   - UP ARROW
   - Alt+P
   - Gui+Sft+LEFT ARROW
@@ -150,7 +150,7 @@ layers:
   - Alt+J
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB5'
+  - Ctl+Y
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - PAGE UP
@@ -162,7 +162,7 @@ layers:
   - Alt+2
   - Alt+3
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - Ctl+Z
   - Gui+TAB
   - Gui+DOWN ARROW
   - PAGE DOWN
@@ -170,9 +170,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
