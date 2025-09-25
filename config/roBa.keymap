@@ -105,8 +105,8 @@
         ARROW {
             bindings = <
 &kp BACKSPACE     &kp DEL           &trans          &kp UP_ARROW      &kp LA(P)                                       &kp LG(LS(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LG(LS(RIGHT_ARROW))  &trans         &trans
-&trans            &kp LA(M)         &kp LEFT_ARROW  &kp RIGHT_ARROW   &kp LA(J)         &trans                &trans  &trans                  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)      &kp PAGE_UP    &kp HOME
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp DOWN_ARROW  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)      &trans  &trans                  &kp LG(TAB)         &kp LG(DOWN_ARROW)       &kp PAGE_DOWN  &kp END
+&trans            &kp LA(M)         &kp LEFT_ARROW  &kp RIGHT_ARROW   &kp LA(J)         &trans                &trans  &mkp MB5                &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)      &kp PAGE_UP    &kp HOME
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp DOWN_ARROW  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)      &trans  &mkp MB4                &kp LG(TAB)         &kp LG(DOWN_ARROW)       &kp PAGE_DOWN  &kp END
 &trans            &trans            &trans          &trans            &trans            &trans                &trans  &trans                                                                              &trans
             >;
 
