@@ -95,8 +95,8 @@
             bindings = <
 &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                         &kp F12  &kp F7  &kp F8  &kp F9              &trans
 &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans         &trans  &kp F11  &kp F4  &kp F5  &kp F6              &kp RIGHT_ALT
-&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp LS(R)      &trans  &kp F10  &kp F1  &kp F2  &mt RIGHT_SHIFT F3  &trans
-&kp PERIOD    &trans        &kp LC(A)     &trans        &trans     &trans         &trans  &trans                                       &trans
+&kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp LS(R)      &trans  &kp F10  &kp F1  &kp F2  &mt RIGHT_SHIFT F3  &trans
+&trans        &kp NUMBER_0  &kp LC(A)     &trans        &trans     &trans         &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
