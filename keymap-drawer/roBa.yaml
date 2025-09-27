@@ -28,14 +28,14 @@ layers:
   - C
   - V
   - B
-  - {t: INSERT, h: SYMBOLS}
+  - ESCAPE
   - DEL
   - N
   - M
   - ','
   - .
   - {t: /, h: NUM}
-  - ESCAPE
+  - {t: INSERT, h: SYMBOLS}
   - {t: LEFT WIN, h: MOUSE}
   - {t: TAB, h: LEFT ALT}
   - {t: SPACE, h: ARROW}
@@ -72,14 +72,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
   - Sft+;
   - '"'
   - '~'
   - ^
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
