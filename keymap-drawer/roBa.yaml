@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: SCROLL}
+  - {t: ;, h: SCROLL}
   - Z
   - X
   - C
@@ -43,7 +43,7 @@ layers:
   - LCTRL
   - BACKSPACE
   - ENTER
-  - {t: '!', h: Bluetooth}
+  - {t: '-', h: Bluetooth}
   SYMBOLS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,7 +156,7 @@ layers:
   - PAGE UP
   - HOME
   - Sft+1
-  - Sft+2
+  - Sft+'
   - DOWN ARROW
   - Alt+1
   - Alt+2
