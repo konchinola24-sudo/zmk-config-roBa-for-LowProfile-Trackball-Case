@@ -35,12 +35,12 @@ layers:
   - ','
   - .
   - {t: /, h: NUM}
-  - {t: INSERT, h: SYMBOLS}
-  - {t: LEFT WIN, h: MOUSE}
+  - {t: INSERT, h: MOUSE}
+  - LEFT SHIFT
+  - LEFT CONTROL
   - {t: TAB, h: LEFT ALT}
   - {t: SPACE, h: ARROW}
-  - LEFT SHIFT
-  - LCTRL
+  - {t: LEFT WIN, h: SYMBOLS}
   - BACKSPACE
   - ENTER
   - {t: '-', h: Bluetooth}
@@ -79,12 +79,12 @@ layers:
   - '"'
   - '~'
   - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,9 +138,9 @@ layers:
   - INSERT
   - UP ARROW
   - Alt+P
-  - Gui+Sft+LEFT ARROW
+  - Gui+Ctl+LEFT ARROW
   - Gui+UP ARROW
-  - Gui+Sft+RIGHT ARROW
+  - Gui+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,8 +170,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
