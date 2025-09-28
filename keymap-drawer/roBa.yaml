@@ -37,8 +37,8 @@ layers:
   - {t: /, h: NUM}
   - {t: INSERT, h: SYMBOLS}
   - {t: LEFT WIN, h: MOUSE}
-  - {t: TAB, h: LEFT ALT}
-  - {t: SPACE, h: ARROW}
+  - {t: SPACE, h: LEFT ALT}
+  - {t: TAB, h: ARROW}
   - LEFT SHIFT
   - LCTRL
   - BACKSPACE
