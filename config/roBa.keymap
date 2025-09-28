@@ -71,10 +71,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W           &kp E             &kp R        &kp T                                                  &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S           &kp D             &kp F        &kp G           &kp LS(LG(S))      &kp K_CONTEXT_MENU  &kp H      &kp J  &kp K      &kp L    &lt 5 SEMICOLON
-&kp Z         &kp X           &kp C             &kp V        &kp B           &kp ESCAPE         &kp DEL             &kp N      &kp M  &kp COMMA  &kp DOT  &lt 2 SLASH
-&lt 1 INSERT  &lt 4 LEFT_WIN  &mt LEFT_ALT TAB  &lt 3 SPACE  &kp LEFT_SHIFT  &kp LCTRL          &kp BACKSPACE       &kp ENTER                             &lt 6 MINUS
+&kp Q         &kp W           &kp E             &kp R             &kp T                                                &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A         &kp S           &kp D             &kp F             &kp G        &kp LS(LG(S))       &kp K_CONTEXT_MENU  &kp H      &kp J  &kp K      &kp L    &lt 5 SEMICOLON
+&kp Z         &kp X           &kp C             &kp V             &kp B        &kp ESCAPE          &kp DEL             &kp N      &kp M  &kp COMMA  &kp DOT  &lt 2 SLASH
+&lt 1 INSERT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mt LEFT_ALT TAB  &lt 3 SPACE  &lt 4 LEFT_WIN      &kp BACKSPACE       &kp ENTER                             &lt 6 MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -104,7 +104,7 @@
 
         ARROW {
             bindings = <
-&kp BACKSPACE     &kp DEL      &kp INSERT      &kp UP_ARROW      &kp LA(P)                                       &kp LG(LS(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LG(LS(RIGHT_ARROW))  &trans         &trans
+&kp BACKSPACE     &kp DEL      &kp INSERT      &kp UP_ARROW      &kp LA(P)                                       &kp LG(LC(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LG(LC(RIGHT_ARROW))  &trans         &trans
 &trans            &kp LA(M)    &kp LEFT_ARROW  &kp RIGHT_ARROW   &kp LA(J)         &trans                &trans  &kp RC(Y)               &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)      &kp PAGE_UP    &kp HOME
 &kp LS(NUMBER_1)  &kp LS(SQT)  &kp DOWN_ARROW  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)      &trans  &kp RC(Z)               &kp LG(TAB)         &kp LG(DOWN_ARROW)       &kp PAGE_DOWN  &kp END
 &trans            &trans       &trans          &trans            &trans            &trans                &trans  &trans                                                                              &trans
