@@ -74,7 +74,7 @@
 &kp Q         &kp W           &kp E             &kp R             &kp T                                                &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A         &kp S           &kp D             &kp F             &kp G        &kp LS(LG(S))       &kp K_CONTEXT_MENU  &kp H      &kp J  &kp K      &kp L    &lt 5 SEMICOLON
 &kp Z         &kp X           &kp C             &kp V             &kp B        &kp ESCAPE          &kp DEL             &kp N      &kp M  &kp COMMA  &kp DOT  &lt 2 SLASH
-&lt 1 INSERT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mt LEFT_ALT TAB  &lt 3 SPACE  &lt 4 LEFT_WIN      &kp BACKSPACE       &kp ENTER                             &lt 6 MINUS
+&lt 4 INSERT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mt LEFT_ALT TAB  &lt 3 SPACE  &lt 1 LEFT_WIN      &kp BACKSPACE       &kp ENTER                             &lt 6 MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
