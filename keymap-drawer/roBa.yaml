@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: Alt+3, h: MOUSE}
+  - {t: ESCAPE, h: MOUSE}
   - DEL
   - N
   - M
@@ -38,9 +38,9 @@ layers:
   - LEFT SHIFT
   - LCTRL
   - LEFT GUI
-  - {t: TAB, h: LEFT ALT}
-  - {t: SPACE, h: ARROW}
-  - {t: ESCAPE, h: SYMBOLS}
+  - {t: Alt+3, h: LEFT ALT}
+  - {t: TAB, h: ARROW}
+  - {t: SPACE, h: SYMBOLS}
   - BACKSPACE
   - ENTER
   - {t: '-', h: Bluetooth}
