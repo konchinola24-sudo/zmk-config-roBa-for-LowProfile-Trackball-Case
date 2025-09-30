@@ -135,16 +135,16 @@ layers:
   ARROW:
   - BACKSPACE
   - DEL
-  - INSERT
+  - {t: ▽, type: trans}
   - UP ARROW
   - Alt+P
   - Gui+Ctl+LEFT ARROW
   - Gui+UP ARROW
   - Gui+Ctl+RIGHT ARROW
+  - Sft+Gui+LEFT ARROW
+  - Sft+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+M
+  - INSERT
   - LEFT ARROW
   - RIGHT ARROW
   - Alt+J
@@ -182,9 +182,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - TAB
+  - Alt+3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -226,9 +226,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - TAB
+  - Alt+3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
