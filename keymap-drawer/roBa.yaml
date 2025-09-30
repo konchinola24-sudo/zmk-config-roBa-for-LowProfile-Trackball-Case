@@ -39,8 +39,8 @@ layers:
   - LCTRL
   - LEFT GUI
   - {t: Alt+3, h: LEFT ALT}
-  - {t: TAB, h: ARROW}
-  - {t: SPACE, h: SYMBOLS}
+  - {t: SPACE, h: ARROW}
+  - {t: TAB, h: SYMBOLS}
   - BACKSPACE
   - ENTER
   - {t: '-', h: Bluetooth}
