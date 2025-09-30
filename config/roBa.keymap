@@ -104,8 +104,8 @@
 
         ARROW {
             bindings = <
-&kp BACKSPACE     &kp DEL      &kp INSERT      &kp UP_ARROW      &kp LA(P)                                       &kp LG(LC(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LG(LC(RIGHT_ARROW))  &trans         &trans
-&trans            &kp LA(M)    &kp LEFT_ARROW  &kp RIGHT_ARROW   &kp LA(J)         &trans                &trans  &kp RC(Y)               &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)      &kp PAGE_UP    &kp HOME
+&kp BACKSPACE     &kp DEL      &trans          &kp UP_ARROW      &kp LA(P)                                       &kp LG(LC(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LG(LC(RIGHT_ARROW))  &trans         &trans
+&trans            &kp INSERT   &kp LEFT_ARROW  &kp RIGHT_ARROW   &kp LA(J)         &trans                &trans  &kp RC(Y)               &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)      &kp PAGE_UP    &kp HOME
 &kp LS(NUMBER_1)  &kp LS(SQT)  &kp DOWN_ARROW  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)      &trans  &kp RC(Z)               &kp LG(TAB)         &kp LG(DOWN_ARROW)       &kp PAGE_DOWN  &kp END
 &trans            &trans       &trans          &trans            &trans            &trans                &trans  &trans                                                                              &trans
             >;
@@ -115,10 +115,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans                      &kp ESCAPE  &kp TAB   &kp LA(NUMBER_3)  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5    &mkp MB1  &mkp MB3          &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4    &trans    &trans            &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -126,10 +126,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans                      &kp ESCAPE  &kp TAB   &kp LA(NUMBER_3)  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5    &mkp MB1  &mkp MB3          &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4    &trans    &trans            &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
