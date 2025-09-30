@@ -14,7 +14,7 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: MOUSE}
   - G
   - Sft+Gui+S
   - CONTEXT MENU
@@ -28,19 +28,19 @@ layers:
   - C
   - V
   - B
-  - ESCAPE
+  - {t: Alt+3, h: MOUSE}
   - DEL
   - N
   - M
   - ','
   - .
   - {t: /, h: NUM}
-  - {t: INSERT, h: MOUSE}
   - LEFT SHIFT
-  - LEFT CONTROL
+  - LCTRL
+  - LEFT GUI
   - {t: TAB, h: LEFT ALT}
   - {t: SPACE, h: ARROW}
-  - {t: LEFT WIN, h: SYMBOLS}
+  - {t: ESCAPE, h: SYMBOLS}
   - BACKSPACE
   - ENTER
   - {t: '-', h: Bluetooth}
@@ -157,10 +157,10 @@ layers:
   - HOME
   - Sft+1
   - Sft+'
+  - {t: ▽, type: trans}
   - DOWN ARROW
   - Alt+1
   - Alt+2
-  - Alt+3
   - {t: ▽, type: trans}
   - Ctl+Z
   - Gui+TAB
@@ -190,7 +190,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
