@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: BACKSPACE, h: MOUSE}
-  - DEL
+  - {t: DELETE, h: MOUSE}
+  - BACKSPACE
   - N
   - M
   - ','
@@ -316,4 +316,4 @@ combos:
 - p: [13, 12]
   k: INT MUHENKAN
 - p: [6, 7]
-  k: ''
+  k: PRINTSCREEN
