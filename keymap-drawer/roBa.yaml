@@ -138,11 +138,11 @@ layers:
   - {t: ▽, type: trans}
   - UP ARROW
   - Alt+P
-  - Gui+Ctl+LEFT ARROW
+  - Gui+Sft+LEFT ARROW
   - Gui+UP ARROW
+  - Gui+Sft+RIGHT ARROW
+  - Gui+Ctl+LEFT ARROW
   - Gui+Ctl+RIGHT ARROW
-  - Sft+Gui+LEFT ARROW
-  - Sft+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - INSERT
   - LEFT ARROW
@@ -163,8 +163,8 @@ layers:
   - Alt+2
   - {t: ▽, type: trans}
   - Ctl+Z
-  - Gui+TAB
   - Gui+DOWN ARROW
+  - Gui+TAB
   - PAGE DOWN
   - END
   - {t: ▽, type: trans}
