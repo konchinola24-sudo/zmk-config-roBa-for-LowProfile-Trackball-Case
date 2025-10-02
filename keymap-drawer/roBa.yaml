@@ -19,8 +19,8 @@ layers:
   - Sft+Gui+S
   - CONTEXT MENU
   - H
-  - J
-  - K
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RCTRL}
   - L
   - {t: ;, h: SCROLL}
   - Z
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: DELETE, h: MOUSE}
+  - DELETE
   - BACKSPACE
   - N
   - M
