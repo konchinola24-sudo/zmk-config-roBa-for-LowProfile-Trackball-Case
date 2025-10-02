@@ -46,7 +46,7 @@
         };
 
         PrintScreen {
-            bindings = <&none>;
+            bindings = <&kp PRINTSCREEN>;
             key-positions = <6 7>;
         };
     };
