@@ -31,9 +31,9 @@ layers:
   - DELETE
   - BACKSPACE
   - N
-  - M
-  - {t: ',', h: RIGHT SHIFT}
-  - {t: ., h: RCTRL}
+  - {t: M, h: RIGHT SHIFT}
+  - {t: ',', h: RCTRL}
+  - .
   - {t: /, h: NUM}
   - LEFT SHIFT
   - LCTRL
