@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: ESCAPE, h: MOUSE}
+  - {t: BACKSPACE, h: MOUSE}
   - DEL
   - N
   - M
@@ -41,7 +41,7 @@ layers:
   - {t: Alt+3, h: LEFT ALT}
   - {t: SPACE, h: ARROW}
   - {t: TAB, h: SYMBOLS}
-  - BACKSPACE
+  - ESCAPE
   - ENTER
   - {t: '-', h: Bluetooth}
   SYMBOLS:
@@ -315,3 +315,5 @@ combos:
   k: INT HENKAN
 - p: [13, 12]
   k: INT MUHENKAN
+- p: [6, 7]
+  k: ''
