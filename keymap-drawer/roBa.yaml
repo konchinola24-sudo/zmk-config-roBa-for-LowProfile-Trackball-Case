@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - DELETE
-  - BACKSPACE
+  - {t: '-', h: Bluetooth}
   - N
   - {t: M, h: RIGHT SHIFT}
   - {t: ',', h: RCTRL}
@@ -43,7 +43,7 @@ layers:
   - {t: TAB, h: SYMBOLS}
   - ESCAPE
   - ENTER
-  - {t: '-', h: Bluetooth}
+  - BACKSPACE
   SYMBOLS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -293,7 +293,7 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - BT CLR
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,7 +307,7 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [10, 21]
   k: Sft+CAPSLOCK
