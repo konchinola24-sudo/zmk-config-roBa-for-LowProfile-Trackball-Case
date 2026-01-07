@@ -10,7 +10,7 @@
 };
 
 &trackball {
-    //automouse-layer = <4>;  // ← ここをコメントアウトして無効化します
+    // automouse-layer = <4>;  // ← ここをコメントアウトして無効化します
     scroll-layers = <5>;
 
     // arrows {
@@ -69,7 +69,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        // ★ここから追加：エラー解消用の定義
+        ind_bat: ind_bat {
+            compatible = "zmk,behavior-none";
+            label = "BATTERY_INDICATOR";
+            #binding-cells = <0>;
+        };
     };
+    
 
     keymap {
         compatible = "zmk,keymap";
