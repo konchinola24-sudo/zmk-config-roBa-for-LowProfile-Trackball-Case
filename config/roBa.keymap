@@ -10,7 +10,7 @@
 };
 
 &trackball {
-    automouse-layer = <4>;
+    //automouse-layer = <4>;  // ← ここをコメントアウトして無効化します
     scroll-layers = <5>;
 
     // arrows {
