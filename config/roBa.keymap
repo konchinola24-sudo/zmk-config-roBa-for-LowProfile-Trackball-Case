@@ -155,3 +155,15 @@
         };
     };
 };
+
+/ {
+    mkp_input_listener {
+        compatible = "zmk,input-listener";
+
+        /* マウスクリック入力を監視 */
+        device = <&mkp>;
+
+        /* クリックしたら layer 4 を 400ms 維持 */
+        input-processors = <&zip_temp_layer 4 400>;
+    };
+};
