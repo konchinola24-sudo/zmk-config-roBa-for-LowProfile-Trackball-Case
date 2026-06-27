@@ -27,14 +27,14 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: NUM}
   - DELETE
   - {t: '-', h: Bluetooth}
-  - N
+  - {t: N, h: NUM}
   - {t: M, h: RIGHT SHIFT}
   - {t: ',', h: RCTRL}
   - .
-  - {t: /, h: NUM}
+  - {t: /, h: RIGHT ALT}
   - LEFT SHIFT
   - LCTRL
   - LEFT GUI
@@ -89,42 +89,40 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - '-'
   - F12
   - F7
   - F8
   - F9
   - {t: ▽, type: trans}
-  - '*'
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+R
+  - '7'
+  - '8'
+  - '9'
+  - /
   - F11
   - F4
   - F5
   - F6
-  - RIGHT ALT
-  - .
-  - '1'
-  - '2'
-  - '3'
-  - '='
-  - Sft+R
+  - LEFT ALT
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+A
+  - '4'
+  - '5'
+  - '6'
+  - '*'
   - F10
   - F1
   - F2
-  - {t: F3, h: RIGHT SHIFT}
+  - F3
   - {type: held}
-  - Ctl+A
+  - {t: ▽, type: trans}
+  - .
   - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,41 +130,43 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
   ARROW:
-  - BACKSPACE
-  - DEL
+  - HOME
   - {t: ▽, type: trans}
   - UP ARROW
-  - Alt+P
-  - Gui+Sft+LEFT ARROW
-  - Gui+UP ARROW
-  - Gui+Sft+RIGHT ARROW
-  - Gui+Ctl+LEFT ARROW
-  - Gui+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
-  - INSERT
-  - LEFT ARROW
-  - RIGHT ARROW
-  - Alt+J
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+Y
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
   - PAGE UP
-  - HOME
+  - Gui+Sft+UP ARROW
+  - {t: ▽, type: trans}
+  - Gui+UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - END
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Sft+LEFT ARROW
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
+  - Gui+Sft+RIGHT ARROW
   - Sft+1
   - Sft+'
   - {t: ▽, type: trans}
-  - DOWN ARROW
+  - INSERT
   - Alt+1
   - Alt+2
   - {t: ▽, type: trans}
-  - Ctl+Z
-  - Gui+DOWN ARROW
+  - {t: ▽, type: trans}
+  - Gui+Ctl+LEFT ARROW
   - Gui+TAB
-  - PAGE DOWN
-  - END
+  - Gui+Ctl+RIGHT ARROW
+  - Gui+Sft+DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,7 +283,7 @@ layers:
   - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&ind_bat'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
