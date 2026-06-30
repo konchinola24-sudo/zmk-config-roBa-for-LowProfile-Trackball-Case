@@ -26,8 +26,8 @@ layers:
   - Z
   - X
   - C
-  - V
-  - {t: B, h: NUM}
+  - {t: V, h: NUM}
+  - B
   - DELETE
   - {t: '-', h: Bluetooth}
   - {t: N, h: NUM}
@@ -105,7 +105,7 @@ layers:
   - F6
   - LEFT ALT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - Ctl+A
   - '4'
   - '5'
@@ -114,8 +114,8 @@ layers:
   - F10
   - F1
   - F2
-  - F3
-  - {type: held}
+  - {t: F3, type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .
   - '0'
