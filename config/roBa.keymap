@@ -67,12 +67,12 @@
             key-positions = <18 19 20>;
         };
 
-        MB5 {
+        mouse_click_5 {
             bindings = <&mkp MB5>;
             key-positions = <17 18>;
         };
 
-        MB4 {
+        mouse_click_4 {
             bindings = <&mkp MB4>;
             key-positions = <29 30>;
         };
