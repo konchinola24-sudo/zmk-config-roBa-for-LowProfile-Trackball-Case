@@ -66,6 +66,16 @@
             bindings = <&mkp MB3>;
             key-positions = <18 19 20>;
         };
+
+        MB5 {
+            bindings = <&mkp MB5>;
+            key-positions = <17 18>;
+        };
+
+        MB4 {
+            bindings = <&mkp MB4>;
+            key-positions = <29 30>;
+        };
     };
 
     macros {
@@ -95,7 +105,7 @@
             bindings = <
 &kp Q           &kp W      &kp E         &kp R                      &kp T                                                 &kp Y      &kp U              &kp I            &kp O    &kp P
 &lt 2 A         &kp S      &kp D         &lt 4 F                    &kp G        &kp LS(LG(S))      &kp K_CONTEXT_MENU    &kp H      &kp J              &kp K            &kp L    &lt 5 SEMICOLON
-&kp Z           &kp X      &kp C         &kp V                      &kp B        &kp DELETE         &lt 6 MINUS           &lt 2 N    &mt RIGHT_SHIFT M  &mt RCTRL COMMA  &kp DOT  &lt 2 SLASH
+&kt Z           &kp X      &mt LCTRL C   &mt LEFT_SHIFT V           &kp B        &kp DELETE         &lt 6 MINUS           &kp N      &mt RIGHT_SHIFT M  &mt RCTRL COMMA  &kp DOT  &lt 2 SLASH
 &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_GUI  &mt LEFT_ALT LA(NUMBER_3)  &lt 3 SPACE  &lt 1 TAB          &mt RIGHT_ALT ESCAPE  &kp ENTER                                               &kp BACKSPACE
             >;
 
@@ -137,10 +147,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB5  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
