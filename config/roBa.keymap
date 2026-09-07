@@ -86,11 +86,18 @@
             label = "TO_LAYER_0";
         };
 
-        RENAME: new_macro {
+        RENAME_ABC: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT &kp DEL &kp DEL &kp END &kp UNDER &kp N0 &kp N1 &kp TAB &kp K_CONTEXT_MENU &kp UP_ARROW &kp ENTER &kp ENTER>;
+            bindings = <&kp DEL &kp DEL &kp END &kp UNDER &kp N0 &kp N1 &kp TAB &kp K_CONTEXT_MENU &kp UP_ARROW &kp ENTER>;
             label = "NEW_MACRO";
+        };
+
+        RENAME_PS: RENAME_PS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DEL &kp DEL &kp END &kp UNDER &kp N0 &kp N1 &kp TAB &kp K_CONTEXT_MENU &kp UP_ARROW &kp ENTER>;
+            label = "RENAME_PS";
         };
     };
 
@@ -110,10 +117,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W      &kp E         &kp R                      &kp T                                                 &kp Y      &kp U              &kp I            &kp O    &kp P
-&lt 2 A  &kp S      &kp D         &kp F                      &kp G        &kp LS(LG(S))      &kp K_CONTEXT_MENU    &kp H      &kp J              &kp K            &kp L    &lt 5 SEMICOLON
-&kp Z    &kp X      &mt LCTRL C   &mt LEFT_SHIFT V           &kp B        &kp DELETE         &lt 6 MINUS           &kp N      &mt RIGHT_SHIFT M  &mt RCTRL COMMA  &kp DOT  &lt 2 SLASH
-&RENAME  &kp LCTRL  &kp LEFT_GUI  &mt LEFT_ALT LA(NUMBER_3)  &lt 3 SPACE  &lt 1 TAB          &mt RIGHT_ALT ESCAPE  &kp ENTER                                               &kp BACKSPACE
+&kp Q        &kp W       &kp E         &kp R                      &kp T                                                 &kp Y      &kp U              &kp I            &kp O    &kp P
+&lt 2 A      &kp S       &kp D         &kp F                      &kp G        &kp LS(LG(S))      &kp K_CONTEXT_MENU    &kp H      &kp J              &kp K            &kp L    &lt 5 SEMICOLON
+&kp Z        &kp X       &mt LCTRL C   &mt LEFT_SHIFT V           &kp B        &kp DELETE         &lt 6 MINUS           &kp N      &mt RIGHT_SHIFT M  &mt RCTRL COMMA  &kp DOT  &lt 2 SLASH
+&RENAME_ABC  &RENAME_PS  &kp LEFT_GUI  &mt LEFT_ALT LA(NUMBER_3)  &lt 3 SPACE  &lt 1 TAB          &mt RIGHT_ALT ESCAPE  &kp ENTER                                               &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
