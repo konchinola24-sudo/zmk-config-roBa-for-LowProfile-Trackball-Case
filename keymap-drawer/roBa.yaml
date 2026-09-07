@@ -14,7 +14,7 @@ layers:
   - {t: A, h: NUM}
   - S
   - D
-  - {t: F, h: MOUSE}
+  - F
   - G
   - Sft+Gui+S
   - CONTEXT MENU
@@ -23,14 +23,14 @@ layers:
   - K
   - L
   - {t: ;, h: SCROLL}
-  - Z
+  - {t: Z, h: toggle}
   - X
-  - C
-  - V
+  - {t: C, h: LCTRL}
+  - {t: V, h: LEFT SHIFT}
   - B
   - DELETE
   - {t: '-', h: Bluetooth}
-  - {t: N, h: NUM}
+  - N
   - {t: M, h: RIGHT SHIFT}
   - {t: ',', h: RCTRL}
   - .
@@ -190,14 +190,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -206,7 +198,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,10 +238,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB5'
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -250,7 +250,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -311,9 +311,19 @@ layers:
 combos:
 - p: [10, 21]
   k: Sft+CAPSLOCK
-- p: [18, 19]
+- p: [30, 31]
   k: INT HENKAN
-- p: [13, 12]
+- p: [24, 25]
   k: INT MUHENKAN
 - p: [6, 7]
   k: PRINTSCREEN
+- p: [18, 19]
+  k: '&mkp MB1'
+- p: [19, 20]
+  k: '&mkp MB2'
+- p: [18, 19, 20]
+  k: '&mkp MB3'
+- p: [17, 18]
+  k: '&mkp MB5'
+- p: [29, 30]
+  k: '&mkp MB4'
