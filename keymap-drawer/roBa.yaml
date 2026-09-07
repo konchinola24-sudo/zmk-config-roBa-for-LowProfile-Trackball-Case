@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - {t: ;, h: SCROLL}
-  - {t: Z, h: toggle}
+  - Z
   - X
   - {t: C, h: LCTRL}
   - {t: V, h: LEFT SHIFT}
