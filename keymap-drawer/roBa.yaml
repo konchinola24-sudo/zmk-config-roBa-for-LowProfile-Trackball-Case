@@ -45,40 +45,40 @@ layers:
   - ENTER
   - BACKSPACE
   SYMBOLS:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '%'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - <
-  - '>'
-  - \
-  - {t: ▽, type: trans}
-  - '#'
-  - $
-  - '!'
-  - '@'
   - '&'
   - {t: ▽, type: trans}
+  - '#'
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '!'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '@'
+  - $
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - (
   - )
   - '['
   - ']'
   - {t: ▽, type: trans}
+  - '%'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ;
-  - Sft+;
-  - '"'
-  - '~'
   - ^
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - '`'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
