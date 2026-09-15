@@ -393,6 +393,83 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="532" dy="-0.6em">&amp;mkp</tspan><tspan x="532" dy="1.2em">MB4</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<path d="M514,103 l197,-37" class="combo"/>
+<path d="M514,103 l33,32" class="combo"/>
+<path d="M514,103 l-243,-4" class="combo"/>
+<rect rx="6" ry="6" x="500" y="90" width="28" height="26" class="combo"/>
+<text x="514" y="103" class="combo tap"><tspan style="font-size: 64%">&amp;PM_first_…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M140,91 l-42,-37" class="combo"/>
+<path d="M140,91 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
+<text x="140" y="91" class="combo tap"><tspan style="font-size: 64%">&amp;View_Dept…</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M435,70 l276,-7" class="combo"/>
+<path d="M435,70 l-220,20" class="combo"/>
+<path d="M435,70 l-276,13" class="combo"/>
+<path d="M435,70 l220,-26" class="combo"/>
+<rect rx="6" ry="6" x="421" y="57" width="28" height="26" class="combo"/>
+<text x="435" y="70" class="combo tap"><tspan style="font-size: 78%">&amp;PDF_DOCU</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M378,75 l-219,8" class="combo"/>
+<path d="M378,75 l-220,60" class="combo"/>
+<path d="M378,75 l276,-31" class="combo"/>
+<path d="M378,75 l164,-36" class="combo"/>
+<rect rx="6" ry="6" x="364" y="62" width="28" height="26" class="combo"/>
+<text x="378" y="75" class="combo tap"><tspan style="font-size: 64%">&amp;DOCU_Seri…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M350,72 l248,-41" class="combo"/>
+<path d="M350,72 l304,-28" class="combo"/>
+<path d="M350,72 l-304,44" class="combo"/>
+<path d="M350,72 l-248,25" class="combo"/>
+<rect rx="6" ry="6" x="336" y="59" width="28" height="26" class="combo"/>
+<text x="350" y="72" class="combo tap">&amp;ISO_A</text>
+</g>
+<g class="combo combopos-14">
+<path d="M406,81 l192,-48" class="combo"/>
+<path d="M406,81 l248,-36" class="combo"/>
+<path d="M406,81 l-304,16" class="combo"/>
+<path d="M406,81 l-137,66" class="combo"/>
+<rect rx="6" ry="6" x="392" y="68" width="28" height="26" class="combo"/>
+<text x="406" y="81" class="combo tap">&amp;ISO_B</text>
+</g>
+<g class="combo combopos-15">
+<path d="M378,77 l220,-45" class="combo"/>
+<path d="M378,77 l276,-33" class="combo"/>
+<path d="M378,77 l-276,20" class="combo"/>
+<path d="M378,77 l-220,58" class="combo"/>
+<rect rx="6" ry="6" x="364" y="64" width="28" height="26" class="combo"/>
+<text x="378" y="77" class="combo tap">&amp;ISO_C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M378,63 l220,-32" class="combo"/>
+<path d="M378,63 l276,-20" class="combo"/>
+<path d="M378,63 l-276,33" class="combo"/>
+<path d="M378,63 l-220,19" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">&amp;ISO_D</text>
+</g>
+<g class="combo combopos-17">
+<path d="M526,58 l73,-24" class="combo"/>
+<path d="M526,58 l129,-14" class="combo"/>
+<path d="M526,58 l185,4" class="combo"/>
+<path d="M526,58 l-423,39" class="combo"/>
+<rect rx="6" ry="6" x="512" y="45" width="28" height="26" class="combo"/>
+<text x="526" y="58" class="combo tap">&amp;ISO_P</text>
+</g>
+<g class="combo combopos-18">
+<path d="M364,81 l234,-49" class="combo"/>
+<path d="M364,81 l290,-36" class="combo"/>
+<path d="M364,81 l-262,16" class="combo"/>
+<path d="M364,81 l-262,69" class="combo"/>
+<rect rx="6" ry="6" x="350" y="68" width="28" height="26" class="combo"/>
+<text x="364" y="81" class="combo tap">&amp;ISO_S</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-SYMBOLS">
@@ -624,6 +701,83 @@ path.combo { stroke: #7f7f7f; }
 <text x="532" y="151" class="combo tap">
 <tspan x="532" dy="-0.6em">&amp;mkp</tspan><tspan x="532" dy="1.2em">MB4</tspan>
 </text>
+</g>
+<g class="combo combopos-9">
+<path d="M514,103 l197,-37" class="combo"/>
+<path d="M514,103 l33,32" class="combo"/>
+<path d="M514,103 l-243,-4" class="combo"/>
+<rect rx="6" ry="6" x="500" y="90" width="28" height="26" class="combo"/>
+<text x="514" y="103" class="combo tap"><tspan style="font-size: 64%">&amp;PM_first_…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M140,91 l-42,-37" class="combo"/>
+<path d="M140,91 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
+<text x="140" y="91" class="combo tap"><tspan style="font-size: 64%">&amp;View_Dept…</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M435,70 l276,-7" class="combo"/>
+<path d="M435,70 l-220,20" class="combo"/>
+<path d="M435,70 l-276,13" class="combo"/>
+<path d="M435,70 l220,-26" class="combo"/>
+<rect rx="6" ry="6" x="421" y="57" width="28" height="26" class="combo"/>
+<text x="435" y="70" class="combo tap"><tspan style="font-size: 78%">&amp;PDF_DOCU</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M378,75 l-219,8" class="combo"/>
+<path d="M378,75 l-220,60" class="combo"/>
+<path d="M378,75 l276,-31" class="combo"/>
+<path d="M378,75 l164,-36" class="combo"/>
+<rect rx="6" ry="6" x="364" y="62" width="28" height="26" class="combo"/>
+<text x="378" y="75" class="combo tap"><tspan style="font-size: 64%">&amp;DOCU_Seri…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M350,72 l248,-41" class="combo"/>
+<path d="M350,72 l304,-28" class="combo"/>
+<path d="M350,72 l-304,44" class="combo"/>
+<path d="M350,72 l-248,25" class="combo"/>
+<rect rx="6" ry="6" x="336" y="59" width="28" height="26" class="combo"/>
+<text x="350" y="72" class="combo tap">&amp;ISO_A</text>
+</g>
+<g class="combo combopos-14">
+<path d="M406,81 l192,-48" class="combo"/>
+<path d="M406,81 l248,-36" class="combo"/>
+<path d="M406,81 l-304,16" class="combo"/>
+<path d="M406,81 l-137,66" class="combo"/>
+<rect rx="6" ry="6" x="392" y="68" width="28" height="26" class="combo"/>
+<text x="406" y="81" class="combo tap">&amp;ISO_B</text>
+</g>
+<g class="combo combopos-15">
+<path d="M378,77 l220,-45" class="combo"/>
+<path d="M378,77 l276,-33" class="combo"/>
+<path d="M378,77 l-276,20" class="combo"/>
+<path d="M378,77 l-220,58" class="combo"/>
+<rect rx="6" ry="6" x="364" y="64" width="28" height="26" class="combo"/>
+<text x="378" y="77" class="combo tap">&amp;ISO_C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M378,63 l220,-32" class="combo"/>
+<path d="M378,63 l276,-20" class="combo"/>
+<path d="M378,63 l-276,33" class="combo"/>
+<path d="M378,63 l-220,19" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">&amp;ISO_D</text>
+</g>
+<g class="combo combopos-17">
+<path d="M526,58 l73,-24" class="combo"/>
+<path d="M526,58 l129,-14" class="combo"/>
+<path d="M526,58 l185,4" class="combo"/>
+<path d="M526,58 l-423,39" class="combo"/>
+<rect rx="6" ry="6" x="512" y="45" width="28" height="26" class="combo"/>
+<text x="526" y="58" class="combo tap">&amp;ISO_P</text>
+</g>
+<g class="combo combopos-18">
+<path d="M364,81 l234,-49" class="combo"/>
+<path d="M364,81 l290,-36" class="combo"/>
+<path d="M364,81 l-262,16" class="combo"/>
+<path d="M364,81 l-262,69" class="combo"/>
+<rect rx="6" ry="6" x="350" y="68" width="28" height="26" class="combo"/>
+<text x="364" y="81" class="combo tap">&amp;ISO_S</text>
 </g>
 </g>
 </g>
@@ -859,6 +1013,83 @@ path.combo { stroke: #7f7f7f; }
 <text x="532" y="151" class="combo tap">
 <tspan x="532" dy="-0.6em">&amp;mkp</tspan><tspan x="532" dy="1.2em">MB4</tspan>
 </text>
+</g>
+<g class="combo combopos-9">
+<path d="M514,103 l197,-37" class="combo"/>
+<path d="M514,103 l33,32" class="combo"/>
+<path d="M514,103 l-243,-4" class="combo"/>
+<rect rx="6" ry="6" x="500" y="90" width="28" height="26" class="combo"/>
+<text x="514" y="103" class="combo tap"><tspan style="font-size: 64%">&amp;PM_first_…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M140,91 l-42,-37" class="combo"/>
+<path d="M140,91 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
+<text x="140" y="91" class="combo tap"><tspan style="font-size: 64%">&amp;View_Dept…</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M435,70 l276,-7" class="combo"/>
+<path d="M435,70 l-220,20" class="combo"/>
+<path d="M435,70 l-276,13" class="combo"/>
+<path d="M435,70 l220,-26" class="combo"/>
+<rect rx="6" ry="6" x="421" y="57" width="28" height="26" class="combo"/>
+<text x="435" y="70" class="combo tap"><tspan style="font-size: 78%">&amp;PDF_DOCU</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M378,75 l-219,8" class="combo"/>
+<path d="M378,75 l-220,60" class="combo"/>
+<path d="M378,75 l276,-31" class="combo"/>
+<path d="M378,75 l164,-36" class="combo"/>
+<rect rx="6" ry="6" x="364" y="62" width="28" height="26" class="combo"/>
+<text x="378" y="75" class="combo tap"><tspan style="font-size: 64%">&amp;DOCU_Seri…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M350,72 l248,-41" class="combo"/>
+<path d="M350,72 l304,-28" class="combo"/>
+<path d="M350,72 l-304,44" class="combo"/>
+<path d="M350,72 l-248,25" class="combo"/>
+<rect rx="6" ry="6" x="336" y="59" width="28" height="26" class="combo"/>
+<text x="350" y="72" class="combo tap">&amp;ISO_A</text>
+</g>
+<g class="combo combopos-14">
+<path d="M406,81 l192,-48" class="combo"/>
+<path d="M406,81 l248,-36" class="combo"/>
+<path d="M406,81 l-304,16" class="combo"/>
+<path d="M406,81 l-137,66" class="combo"/>
+<rect rx="6" ry="6" x="392" y="68" width="28" height="26" class="combo"/>
+<text x="406" y="81" class="combo tap">&amp;ISO_B</text>
+</g>
+<g class="combo combopos-15">
+<path d="M378,77 l220,-45" class="combo"/>
+<path d="M378,77 l276,-33" class="combo"/>
+<path d="M378,77 l-276,20" class="combo"/>
+<path d="M378,77 l-220,58" class="combo"/>
+<rect rx="6" ry="6" x="364" y="64" width="28" height="26" class="combo"/>
+<text x="378" y="77" class="combo tap">&amp;ISO_C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M378,63 l220,-32" class="combo"/>
+<path d="M378,63 l276,-20" class="combo"/>
+<path d="M378,63 l-276,33" class="combo"/>
+<path d="M378,63 l-220,19" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">&amp;ISO_D</text>
+</g>
+<g class="combo combopos-17">
+<path d="M526,58 l73,-24" class="combo"/>
+<path d="M526,58 l129,-14" class="combo"/>
+<path d="M526,58 l185,4" class="combo"/>
+<path d="M526,58 l-423,39" class="combo"/>
+<rect rx="6" ry="6" x="512" y="45" width="28" height="26" class="combo"/>
+<text x="526" y="58" class="combo tap">&amp;ISO_P</text>
+</g>
+<g class="combo combopos-18">
+<path d="M364,81 l234,-49" class="combo"/>
+<path d="M364,81 l290,-36" class="combo"/>
+<path d="M364,81 l-262,16" class="combo"/>
+<path d="M364,81 l-262,69" class="combo"/>
+<rect rx="6" ry="6" x="350" y="68" width="28" height="26" class="combo"/>
+<text x="364" y="81" class="combo tap">&amp;ISO_S</text>
 </g>
 </g>
 </g>
@@ -1124,6 +1355,83 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="532" dy="-0.6em">&amp;mkp</tspan><tspan x="532" dy="1.2em">MB4</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<path d="M514,103 l197,-37" class="combo"/>
+<path d="M514,103 l33,32" class="combo"/>
+<path d="M514,103 l-243,-4" class="combo"/>
+<rect rx="6" ry="6" x="500" y="90" width="28" height="26" class="combo"/>
+<text x="514" y="103" class="combo tap"><tspan style="font-size: 64%">&amp;PM_first_…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M140,91 l-42,-37" class="combo"/>
+<path d="M140,91 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
+<text x="140" y="91" class="combo tap"><tspan style="font-size: 64%">&amp;View_Dept…</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M435,70 l276,-7" class="combo"/>
+<path d="M435,70 l-220,20" class="combo"/>
+<path d="M435,70 l-276,13" class="combo"/>
+<path d="M435,70 l220,-26" class="combo"/>
+<rect rx="6" ry="6" x="421" y="57" width="28" height="26" class="combo"/>
+<text x="435" y="70" class="combo tap"><tspan style="font-size: 78%">&amp;PDF_DOCU</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M378,75 l-219,8" class="combo"/>
+<path d="M378,75 l-220,60" class="combo"/>
+<path d="M378,75 l276,-31" class="combo"/>
+<path d="M378,75 l164,-36" class="combo"/>
+<rect rx="6" ry="6" x="364" y="62" width="28" height="26" class="combo"/>
+<text x="378" y="75" class="combo tap"><tspan style="font-size: 64%">&amp;DOCU_Seri…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M350,72 l248,-41" class="combo"/>
+<path d="M350,72 l304,-28" class="combo"/>
+<path d="M350,72 l-304,44" class="combo"/>
+<path d="M350,72 l-248,25" class="combo"/>
+<rect rx="6" ry="6" x="336" y="59" width="28" height="26" class="combo"/>
+<text x="350" y="72" class="combo tap">&amp;ISO_A</text>
+</g>
+<g class="combo combopos-14">
+<path d="M406,81 l192,-48" class="combo"/>
+<path d="M406,81 l248,-36" class="combo"/>
+<path d="M406,81 l-304,16" class="combo"/>
+<path d="M406,81 l-137,66" class="combo"/>
+<rect rx="6" ry="6" x="392" y="68" width="28" height="26" class="combo"/>
+<text x="406" y="81" class="combo tap">&amp;ISO_B</text>
+</g>
+<g class="combo combopos-15">
+<path d="M378,77 l220,-45" class="combo"/>
+<path d="M378,77 l276,-33" class="combo"/>
+<path d="M378,77 l-276,20" class="combo"/>
+<path d="M378,77 l-220,58" class="combo"/>
+<rect rx="6" ry="6" x="364" y="64" width="28" height="26" class="combo"/>
+<text x="378" y="77" class="combo tap">&amp;ISO_C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M378,63 l220,-32" class="combo"/>
+<path d="M378,63 l276,-20" class="combo"/>
+<path d="M378,63 l-276,33" class="combo"/>
+<path d="M378,63 l-220,19" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">&amp;ISO_D</text>
+</g>
+<g class="combo combopos-17">
+<path d="M526,58 l73,-24" class="combo"/>
+<path d="M526,58 l129,-14" class="combo"/>
+<path d="M526,58 l185,4" class="combo"/>
+<path d="M526,58 l-423,39" class="combo"/>
+<rect rx="6" ry="6" x="512" y="45" width="28" height="26" class="combo"/>
+<text x="526" y="58" class="combo tap">&amp;ISO_P</text>
+</g>
+<g class="combo combopos-18">
+<path d="M364,81 l234,-49" class="combo"/>
+<path d="M364,81 l290,-36" class="combo"/>
+<path d="M364,81 l-262,16" class="combo"/>
+<path d="M364,81 l-262,69" class="combo"/>
+<rect rx="6" ry="6" x="350" y="68" width="28" height="26" class="combo"/>
+<text x="364" y="81" class="combo tap">&amp;ISO_S</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1355)" class="layer-MOUSE">
@@ -1357,6 +1665,83 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="532" dy="-0.6em">&amp;mkp</tspan><tspan x="532" dy="1.2em">MB4</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<path d="M514,103 l197,-37" class="combo"/>
+<path d="M514,103 l33,32" class="combo"/>
+<path d="M514,103 l-243,-4" class="combo"/>
+<rect rx="6" ry="6" x="500" y="90" width="28" height="26" class="combo"/>
+<text x="514" y="103" class="combo tap"><tspan style="font-size: 64%">&amp;PM_first_…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M140,91 l-42,-37" class="combo"/>
+<path d="M140,91 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
+<text x="140" y="91" class="combo tap"><tspan style="font-size: 64%">&amp;View_Dept…</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M435,70 l276,-7" class="combo"/>
+<path d="M435,70 l-220,20" class="combo"/>
+<path d="M435,70 l-276,13" class="combo"/>
+<path d="M435,70 l220,-26" class="combo"/>
+<rect rx="6" ry="6" x="421" y="57" width="28" height="26" class="combo"/>
+<text x="435" y="70" class="combo tap"><tspan style="font-size: 78%">&amp;PDF_DOCU</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M378,75 l-219,8" class="combo"/>
+<path d="M378,75 l-220,60" class="combo"/>
+<path d="M378,75 l276,-31" class="combo"/>
+<path d="M378,75 l164,-36" class="combo"/>
+<rect rx="6" ry="6" x="364" y="62" width="28" height="26" class="combo"/>
+<text x="378" y="75" class="combo tap"><tspan style="font-size: 64%">&amp;DOCU_Seri…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M350,72 l248,-41" class="combo"/>
+<path d="M350,72 l304,-28" class="combo"/>
+<path d="M350,72 l-304,44" class="combo"/>
+<path d="M350,72 l-248,25" class="combo"/>
+<rect rx="6" ry="6" x="336" y="59" width="28" height="26" class="combo"/>
+<text x="350" y="72" class="combo tap">&amp;ISO_A</text>
+</g>
+<g class="combo combopos-14">
+<path d="M406,81 l192,-48" class="combo"/>
+<path d="M406,81 l248,-36" class="combo"/>
+<path d="M406,81 l-304,16" class="combo"/>
+<path d="M406,81 l-137,66" class="combo"/>
+<rect rx="6" ry="6" x="392" y="68" width="28" height="26" class="combo"/>
+<text x="406" y="81" class="combo tap">&amp;ISO_B</text>
+</g>
+<g class="combo combopos-15">
+<path d="M378,77 l220,-45" class="combo"/>
+<path d="M378,77 l276,-33" class="combo"/>
+<path d="M378,77 l-276,20" class="combo"/>
+<path d="M378,77 l-220,58" class="combo"/>
+<rect rx="6" ry="6" x="364" y="64" width="28" height="26" class="combo"/>
+<text x="378" y="77" class="combo tap">&amp;ISO_C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M378,63 l220,-32" class="combo"/>
+<path d="M378,63 l276,-20" class="combo"/>
+<path d="M378,63 l-276,33" class="combo"/>
+<path d="M378,63 l-220,19" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">&amp;ISO_D</text>
+</g>
+<g class="combo combopos-17">
+<path d="M526,58 l73,-24" class="combo"/>
+<path d="M526,58 l129,-14" class="combo"/>
+<path d="M526,58 l185,4" class="combo"/>
+<path d="M526,58 l-423,39" class="combo"/>
+<rect rx="6" ry="6" x="512" y="45" width="28" height="26" class="combo"/>
+<text x="526" y="58" class="combo tap">&amp;ISO_P</text>
+</g>
+<g class="combo combopos-18">
+<path d="M364,81 l234,-49" class="combo"/>
+<path d="M364,81 l290,-36" class="combo"/>
+<path d="M364,81 l-262,16" class="combo"/>
+<path d="M364,81 l-262,69" class="combo"/>
+<rect rx="6" ry="6" x="350" y="68" width="28" height="26" class="combo"/>
+<text x="364" y="81" class="combo tap">&amp;ISO_S</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1694)" class="layer-SCROLL">
@@ -1588,6 +1973,83 @@ path.combo { stroke: #7f7f7f; }
 <text x="532" y="151" class="combo tap">
 <tspan x="532" dy="-0.6em">&amp;mkp</tspan><tspan x="532" dy="1.2em">MB4</tspan>
 </text>
+</g>
+<g class="combo combopos-9">
+<path d="M514,103 l197,-37" class="combo"/>
+<path d="M514,103 l33,32" class="combo"/>
+<path d="M514,103 l-243,-4" class="combo"/>
+<rect rx="6" ry="6" x="500" y="90" width="28" height="26" class="combo"/>
+<text x="514" y="103" class="combo tap"><tspan style="font-size: 64%">&amp;PM_first_…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M140,91 l-42,-37" class="combo"/>
+<path d="M140,91 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
+<text x="140" y="91" class="combo tap"><tspan style="font-size: 64%">&amp;View_Dept…</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M435,70 l276,-7" class="combo"/>
+<path d="M435,70 l-220,20" class="combo"/>
+<path d="M435,70 l-276,13" class="combo"/>
+<path d="M435,70 l220,-26" class="combo"/>
+<rect rx="6" ry="6" x="421" y="57" width="28" height="26" class="combo"/>
+<text x="435" y="70" class="combo tap"><tspan style="font-size: 78%">&amp;PDF_DOCU</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M378,75 l-219,8" class="combo"/>
+<path d="M378,75 l-220,60" class="combo"/>
+<path d="M378,75 l276,-31" class="combo"/>
+<path d="M378,75 l164,-36" class="combo"/>
+<rect rx="6" ry="6" x="364" y="62" width="28" height="26" class="combo"/>
+<text x="378" y="75" class="combo tap"><tspan style="font-size: 64%">&amp;DOCU_Seri…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M350,72 l248,-41" class="combo"/>
+<path d="M350,72 l304,-28" class="combo"/>
+<path d="M350,72 l-304,44" class="combo"/>
+<path d="M350,72 l-248,25" class="combo"/>
+<rect rx="6" ry="6" x="336" y="59" width="28" height="26" class="combo"/>
+<text x="350" y="72" class="combo tap">&amp;ISO_A</text>
+</g>
+<g class="combo combopos-14">
+<path d="M406,81 l192,-48" class="combo"/>
+<path d="M406,81 l248,-36" class="combo"/>
+<path d="M406,81 l-304,16" class="combo"/>
+<path d="M406,81 l-137,66" class="combo"/>
+<rect rx="6" ry="6" x="392" y="68" width="28" height="26" class="combo"/>
+<text x="406" y="81" class="combo tap">&amp;ISO_B</text>
+</g>
+<g class="combo combopos-15">
+<path d="M378,77 l220,-45" class="combo"/>
+<path d="M378,77 l276,-33" class="combo"/>
+<path d="M378,77 l-276,20" class="combo"/>
+<path d="M378,77 l-220,58" class="combo"/>
+<rect rx="6" ry="6" x="364" y="64" width="28" height="26" class="combo"/>
+<text x="378" y="77" class="combo tap">&amp;ISO_C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M378,63 l220,-32" class="combo"/>
+<path d="M378,63 l276,-20" class="combo"/>
+<path d="M378,63 l-276,33" class="combo"/>
+<path d="M378,63 l-220,19" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">&amp;ISO_D</text>
+</g>
+<g class="combo combopos-17">
+<path d="M526,58 l73,-24" class="combo"/>
+<path d="M526,58 l129,-14" class="combo"/>
+<path d="M526,58 l185,4" class="combo"/>
+<path d="M526,58 l-423,39" class="combo"/>
+<rect rx="6" ry="6" x="512" y="45" width="28" height="26" class="combo"/>
+<text x="526" y="58" class="combo tap">&amp;ISO_P</text>
+</g>
+<g class="combo combopos-18">
+<path d="M364,81 l234,-49" class="combo"/>
+<path d="M364,81 l290,-36" class="combo"/>
+<path d="M364,81 l-262,16" class="combo"/>
+<path d="M364,81 l-262,69" class="combo"/>
+<rect rx="6" ry="6" x="350" y="68" width="28" height="26" class="combo"/>
+<text x="364" y="81" class="combo tap">&amp;ISO_S</text>
 </g>
 </g>
 </g>
@@ -1829,6 +2291,83 @@ path.combo { stroke: #7f7f7f; }
 <text x="532" y="151" class="combo tap">
 <tspan x="532" dy="-0.6em">&amp;mkp</tspan><tspan x="532" dy="1.2em">MB4</tspan>
 </text>
+</g>
+<g class="combo combopos-9">
+<path d="M514,103 l197,-37" class="combo"/>
+<path d="M514,103 l33,32" class="combo"/>
+<path d="M514,103 l-243,-4" class="combo"/>
+<rect rx="6" ry="6" x="500" y="90" width="28" height="26" class="combo"/>
+<text x="514" y="103" class="combo tap"><tspan style="font-size: 64%">&amp;PM_first_…</tspan></text>
+</g>
+<g class="combo combopos-10">
+<path d="M140,91 l-42,-37" class="combo"/>
+<path d="M140,91 l43,43" class="combo"/>
+<rect rx="6" ry="6" x="126" y="78" width="28" height="26" class="combo"/>
+<text x="140" y="91" class="combo tap"><tspan style="font-size: 64%">&amp;View_Dept…</tspan></text>
+</g>
+<g class="combo combopos-11">
+<path d="M435,70 l276,-7" class="combo"/>
+<path d="M435,70 l-220,20" class="combo"/>
+<path d="M435,70 l-276,13" class="combo"/>
+<path d="M435,70 l220,-26" class="combo"/>
+<rect rx="6" ry="6" x="421" y="57" width="28" height="26" class="combo"/>
+<text x="435" y="70" class="combo tap"><tspan style="font-size: 78%">&amp;PDF_DOCU</tspan></text>
+</g>
+<g class="combo combopos-12">
+<path d="M378,75 l-219,8" class="combo"/>
+<path d="M378,75 l-220,60" class="combo"/>
+<path d="M378,75 l276,-31" class="combo"/>
+<path d="M378,75 l164,-36" class="combo"/>
+<rect rx="6" ry="6" x="364" y="62" width="28" height="26" class="combo"/>
+<text x="378" y="75" class="combo tap"><tspan style="font-size: 64%">&amp;DOCU_Seri…</tspan></text>
+</g>
+<g class="combo combopos-13">
+<path d="M350,72 l248,-41" class="combo"/>
+<path d="M350,72 l304,-28" class="combo"/>
+<path d="M350,72 l-304,44" class="combo"/>
+<path d="M350,72 l-248,25" class="combo"/>
+<rect rx="6" ry="6" x="336" y="59" width="28" height="26" class="combo"/>
+<text x="350" y="72" class="combo tap">&amp;ISO_A</text>
+</g>
+<g class="combo combopos-14">
+<path d="M406,81 l192,-48" class="combo"/>
+<path d="M406,81 l248,-36" class="combo"/>
+<path d="M406,81 l-304,16" class="combo"/>
+<path d="M406,81 l-137,66" class="combo"/>
+<rect rx="6" ry="6" x="392" y="68" width="28" height="26" class="combo"/>
+<text x="406" y="81" class="combo tap">&amp;ISO_B</text>
+</g>
+<g class="combo combopos-15">
+<path d="M378,77 l220,-45" class="combo"/>
+<path d="M378,77 l276,-33" class="combo"/>
+<path d="M378,77 l-276,20" class="combo"/>
+<path d="M378,77 l-220,58" class="combo"/>
+<rect rx="6" ry="6" x="364" y="64" width="28" height="26" class="combo"/>
+<text x="378" y="77" class="combo tap">&amp;ISO_C</text>
+</g>
+<g class="combo combopos-16">
+<path d="M378,63 l220,-32" class="combo"/>
+<path d="M378,63 l276,-20" class="combo"/>
+<path d="M378,63 l-276,33" class="combo"/>
+<path d="M378,63 l-220,19" class="combo"/>
+<rect rx="6" ry="6" x="364" y="50" width="28" height="26" class="combo"/>
+<text x="378" y="63" class="combo tap">&amp;ISO_D</text>
+</g>
+<g class="combo combopos-17">
+<path d="M526,58 l73,-24" class="combo"/>
+<path d="M526,58 l129,-14" class="combo"/>
+<path d="M526,58 l185,4" class="combo"/>
+<path d="M526,58 l-423,39" class="combo"/>
+<rect rx="6" ry="6" x="512" y="45" width="28" height="26" class="combo"/>
+<text x="526" y="58" class="combo tap">&amp;ISO_P</text>
+</g>
+<g class="combo combopos-18">
+<path d="M364,81 l234,-49" class="combo"/>
+<path d="M364,81 l290,-36" class="combo"/>
+<path d="M364,81 l-262,16" class="combo"/>
+<path d="M364,81 l-262,69" class="combo"/>
+<rect rx="6" ry="6" x="350" y="68" width="28" height="26" class="combo"/>
+<text x="364" y="81" class="combo tap">&amp;ISO_S</text>
 </g>
 </g>
 </g>
