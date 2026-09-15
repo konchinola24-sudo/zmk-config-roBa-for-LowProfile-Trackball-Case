@@ -136,21 +136,6 @@
             label = "TO_LAYER_0";
         };
 
-        PM_first_make: PM_first_make {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp ENTER>,
-                <&macro_wait_time 2000>,
-                <&kp TAB &kp TAB &kp DOWN &kp SPACE &kp TAB &kp TAB &kp TAB &kp ENTER>,
-                <&macro_wait_time 2000>,
-                <&kp TAB &kp TAB &kp SPACE &kp ENTER>,
-                <&macro_wait_time 3000>,
-                <&kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp ENTER>;
-
-            label = "PM_FIRST_MAKE";
-        };
-
         View_Depth_1000: View_Depth_1000 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -222,6 +207,27 @@
             #binding-cells = <0>;
             bindings = <&kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp ENTER &kp LS(S) &kp UNDER &kp END &kp BACKSPACE>;
             label = "ISO_S";
+        };
+
+        PM_first_make: PM_first_make {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB>,
+                <&macro_wait_time 2000>,
+                <&kp ENTER &kp TAB>,
+                <&macro_wait_time 10>,
+                <&kp TAB &kp DOWN_ARROW &kp SPACE &kp TAB &kp TAB &kp TAB>,
+                <&macro_wait_time 2000>,
+                <&kp ENTER &kp TAB>,
+                <&macro_wait_time 10>,
+                <&kp TAB &kp SPACE>,
+                <&macro_wait_time 2000>,
+                <&kp ENTER &kp LS(TAB)>,
+                <&macro_wait_time 10>,
+                <&kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp ENTER>;
+
+            label = "PM_FIRST_MAKE";
         };
     };
 
