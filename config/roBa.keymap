@@ -161,7 +161,7 @@
                 <&kp LA(D)>,
                 <&macro_wait_time 700>,
                 <&kp S &kp LC(TAB)>,
-                <&macro_wait_time 10>,
+                <&macro_wait_time 30>,
                 <&kp LC(TAB) &kp LC(TAB) &kp LC(TAB) &kp LS(N) &kp O &kp DOT &kp POUND &kp TAB &kp TAB &kp UP_ARROW &kp TAB &kp N1 &kp N7 &kp TAB &kp DOWN_ARROW &kp LS(TAB) &kp N2 &kp N6 &kp ENTER &kp ENTER &kp LC(S)>;
 
             label = "DOCU_SERIALNUM";
@@ -216,15 +216,15 @@
                 <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB>,
                 <&macro_wait_time 2000>,
                 <&kp ENTER &kp TAB>,
-                <&macro_wait_time 10>,
+                <&macro_wait_time 30>,
                 <&kp TAB &kp DOWN_ARROW &kp SPACE &kp TAB &kp TAB &kp TAB>,
                 <&macro_wait_time 2000>,
                 <&kp ENTER &kp TAB>,
-                <&macro_wait_time 10>,
+                <&macro_wait_time 30>,
                 <&kp TAB &kp SPACE>,
                 <&macro_wait_time 2000>,
                 <&kp ENTER &kp LS(TAB)>,
-                <&macro_wait_time 10>,
+                <&macro_wait_time 30>,
                 <&kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp ENTER>;
 
             label = "PM_FIRST_MAKE";
