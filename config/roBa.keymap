@@ -76,6 +76,26 @@
             bindings = <&mkp MB4>;
             key-positions = <29 30>;
         };
+
+        PM_first_make {
+            bindings = <&PM_first_make>;
+            key-positions = <9 30 14>;
+        };
+
+        View_Depth_1000 {
+            bindings = <&View_Depth_1000>;
+            key-positions = <1 12 25>;
+        };
+
+        PDF_DOCU {
+            bindings = <&PDF_DOCU>;
+            key-positions = <9 13 12>;
+        };
+
+        DOCU_SerialNum {
+            bindings = <&DOCU_SerialNum>;
+            key-positions = <12 24 8 6>;
+        };
     };
 
     macros {
