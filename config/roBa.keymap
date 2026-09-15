@@ -96,6 +96,36 @@
             bindings = <&DOCU_SerialNum>;
             key-positions = <12 24 8 6>;
         };
+
+        ISO_A {
+            bindings = <&ISO_A>;
+            key-positions = <7 8 10 11>;
+        };
+
+        ISO_B {
+            bindings = <&ISO_B>;
+            key-positions = <7 8 11 26>;
+        };
+
+        ISO_C {
+            bindings = <&ISO_C>;
+            key-positions = <7 8 11 24>;
+        };
+
+        ISO_D {
+            bindings = <&ISO_D>;
+            key-positions = <7 8 11 12>;
+        };
+
+        ISO_P {
+            bindings = <&ISO_P>;
+            key-positions = <7 8 9 11>;
+        };
+
+        ISO_S {
+            bindings = <&ISO_S>;
+            key-positions = <7 8 11 23>;
+        };
     };
 
     macros {
@@ -104,20 +134,6 @@
             #binding-cells = <1>;
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
-        };
-
-        RENAME_ABC: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DEL &kp DEL &kp END &kp UNDER &kp N0 &kp N1 &kp TAB &kp K_CONTEXT_MENU &kp UP_ARROW &kp ENTER>;
-            label = "NEW_MACRO";
-        };
-
-        RENAME_PS: RENAME_PS {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DEL &kp DEL &kp END &kp UNDER &kp N0 &kp N1 &kp TAB &kp K_CONTEXT_MENU &kp UP_ARROW &kp ENTER>;
-            label = "RENAME_PS";
         };
 
         PM_first_make: PM_first_make {
@@ -156,8 +172,50 @@
         DOCU_SerialNum: DOCU_SerialNum {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(D) &kp S &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp N &kp LS(O) &kp DOT &kp POUND &kp TAB &kp TAB &kp UP_ARROW &kp TAB &kp N1 &kp N7 &kp TAB &kp DOWN_ARROW &kp LS(TAB) &kp N2 &kp N6 &kp ENTER &kp ENTER &kp LC(S)>;
+            bindings = <&kp LA(D) &kp S &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp LS(N) &kp O &kp DOT &kp POUND &kp TAB &kp TAB &kp UP_ARROW &kp TAB &kp N1 &kp N7 &kp TAB &kp DOWN_ARROW &kp LS(TAB) &kp N2 &kp N6 &kp ENTER &kp ENTER &kp LC(S)>;
             label = "DOCU_SERIALNUM";
+        };
+
+        ISO_A: ISO_A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp ENTER &kp LS(A) &kp UNDER &kp END &kp BACKSPACE>;
+            label = "ISO_A";
+        };
+
+        ISO_B: ISO_B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp ENTER &kp LS(B) &kp UNDER &kp END &kp BACKSPACE>;
+            label = "ISO_B";
+        };
+
+        ISO_C: ISO_C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp ENTER &kp LS(C) &kp UNDER &kp END &kp BACKSPACE>;
+            label = "ISO_C";
+        };
+
+        ISO_D: ISO_D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp ENTER &kp LS(D) &kp UNDER &kp END &kp BACKSPACE>;
+            label = "ISO_D";
+        };
+
+        ISO_P: ISO_P {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp ENTER &kp LS(P) &kp UNDER &kp END &kp BACKSPACE>;
+            label = "ISO_P";
+        };
+
+        ISO_S: ISO_S {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp ENTER &kp LS(S) &kp UNDER &kp END &kp BACKSPACE>;
+            label = "ISO_S";
         };
     };
 
