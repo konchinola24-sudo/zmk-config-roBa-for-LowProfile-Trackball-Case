@@ -212,11 +212,10 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB>,
+                <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp ENTER>,
                 <&macro_wait_time 2000>,
-                <&kp ENTER &kp TAB>,
                 <&macro_wait_time 30>,
-                <&kp TAB &kp DOWN_ARROW &kp SPACE &kp TAB &kp TAB &kp TAB>,
+                <&kp TAB &kp TAB &kp DOWN_ARROW &kp SPACE &kp TAB &kp TAB &kp TAB>,
                 <&macro_wait_time 2000>,
                 <&kp ENTER &kp TAB>,
                 <&macro_wait_time 30>,
