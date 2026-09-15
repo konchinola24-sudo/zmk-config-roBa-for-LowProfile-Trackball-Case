@@ -141,7 +141,7 @@
             bindings =
                 <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp NUMBER_1>,
                 <&macro_wait_time 100>,
-                <&kp ENTER &kp N0 &kp N0 &kp N0 &kp ENTER>;
+                <&kp ENTER &kp N0 &kp N0 &kp N0 &kp HOME>;
 
             label = "VIEW_DEPTH_1000";
         };
