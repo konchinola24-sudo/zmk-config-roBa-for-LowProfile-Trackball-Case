@@ -327,3 +327,23 @@ combos:
   k: '&mkp MB5'
 - p: [29, 30]
   k: '&mkp MB4'
+- p: [9, 30, 14]
+  k: '&PM_first_make'
+- p: [1, 12, 25]
+  k: '&View_Depth_1000'
+- p: [9, 13, 12, 8]
+  k: '&PDF_DOCU'
+- p: [12, 24, 8, 6]
+  k: '&DOCU_SerialNum'
+- p: [7, 8, 10, 11]
+  k: '&ISO_A'
+- p: [7, 8, 11, 26]
+  k: '&ISO_B'
+- p: [7, 8, 11, 24]
+  k: '&ISO_C'
+- p: [7, 8, 11, 12]
+  k: '&ISO_D'
+- p: [7, 8, 9, 11]
+  k: '&ISO_P'
+- p: [7, 8, 11, 23]
+  k: '&ISO_S'
