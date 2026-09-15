@@ -89,7 +89,7 @@
 
         PDF_DOCU {
             bindings = <&PDF_DOCU>;
-            key-positions = <9 13 12>;
+            key-positions = <9 13 12 8>;
         };
 
         DOCU_SerialNum {
