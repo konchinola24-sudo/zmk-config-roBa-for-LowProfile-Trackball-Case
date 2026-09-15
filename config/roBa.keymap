@@ -79,7 +79,7 @@
 
         PM_first_make {
             bindings = <&PM_first_make>;
-            key-positions = <9 30 14>;
+            key-positions = <9 30 13>;
         };
 
         View_Depth_1000 {
