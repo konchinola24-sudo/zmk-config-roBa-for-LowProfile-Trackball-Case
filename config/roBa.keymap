@@ -215,13 +215,11 @@
                 <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp ENTER>,
                 <&macro_wait_time 2000>,
                 <&macro_wait_time 30>,
-                <&kp TAB &kp TAB &kp DOWN_ARROW &kp SPACE &kp TAB &kp TAB &kp TAB>,
+                <&kp TAB &kp TAB &kp DOWN_ARROW &kp SPACE &kp TAB &kp TAB &kp TAB &kp ENTER>,
                 <&macro_wait_time 2000>,
-                <&kp ENTER &kp TAB>,
                 <&macro_wait_time 30>,
-                <&kp TAB &kp SPACE>,
+                <&kp TAB &kp TAB &kp SPACE &kp ENTER>,
                 <&macro_wait_time 2000>,
-                <&kp ENTER>,
                 <&macro_wait_time 30>,
                 <&kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp LS(TAB) &kp TAB &kp TAB &kp SPACE &kp ENTER>;
 
