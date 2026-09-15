@@ -114,6 +114,31 @@
 
             label = "PM_FIRST_MAKE";
         };
+
+        View_Depth_1000: View_Depth_1000 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp NUMBER_1>,
+                <&macro_wait_time 100>,
+                <&kp ENTER &kp N0 &kp N0 &kp N0 &kp ENTER>;
+
+            label = "VIEW_DEPTH_1000";
+        };
+
+        PDF_DOCU: PDF_DOCU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp TAB &kp TAB &kp DOWN_ARROW &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp LS(TAB) &kp LS(TAB) &kp NUMBER_1 &kp NUMBER_3 &kp TAB &kp NUMBER_1 &kp NUMBER_3 &kp ENTER &kp TAB &kp TAB &kp ENTER>;
+            label = "PDF_DOCU";
+        };
+
+        DOCU_SerialNum: DOCU_SerialNum {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(D) &kp S &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp N &kp LS(O) &kp DOT &kp POUND &kp TAB &kp TAB &kp UP_ARROW &kp TAB &kp N1 &kp N7 &kp TAB &kp DOWN_ARROW &kp LS(TAB) &kp N2 &kp N6 &kp ENTER &kp ENTER &kp LC(S)>;
+            label = "DOCU_SERIALNUM";
+        };
     };
 
     behaviors {
