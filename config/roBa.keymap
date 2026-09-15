@@ -172,7 +172,11 @@
         DOCU_SerialNum: DOCU_SerialNum {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(D) &kp S &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp LS(N) &kp O &kp DOT &kp POUND &kp TAB &kp TAB &kp UP_ARROW &kp TAB &kp N1 &kp N7 &kp TAB &kp DOWN_ARROW &kp LS(TAB) &kp N2 &kp N6 &kp ENTER &kp ENTER &kp LC(S)>;
+            bindings =
+                <&kp LA(D) &kp S>,
+                <&macro_wait_time 300>,
+                <&kp LC(TAB) &kp LC(TAB) &kp LC(TAB) &kp LC(TAB) &kp LS(N) &kp O &kp DOT &kp POUND &kp TAB &kp TAB &kp UP_ARROW &kp TAB &kp N1 &kp N7 &kp TAB &kp DOWN_ARROW &kp LS(TAB) &kp N2 &kp N6 &kp ENTER &kp ENTER &kp LC(S)>;
+
             label = "DOCU_SERIALNUM";
         };
 
