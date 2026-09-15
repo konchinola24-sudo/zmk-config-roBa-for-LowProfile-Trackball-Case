@@ -222,9 +222,9 @@
                 <&macro_wait_time 30>,
                 <&kp TAB &kp SPACE>,
                 <&macro_wait_time 2000>,
-                <&kp ENTER &kp LS(TAB)>,
+                <&kp ENTER>,
                 <&macro_wait_time 30>,
-                <&kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp ENTER>;
+                <&kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp LS(TAB) &kp TAB &kp TAB &kp SPACE &kp ENTER>;
 
             label = "PM_FIRST_MAKE";
         };
