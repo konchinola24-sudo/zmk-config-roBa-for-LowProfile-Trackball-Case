@@ -99,6 +99,21 @@
             bindings = <&kp DEL &kp DEL &kp END &kp UNDER &kp N0 &kp N1 &kp TAB &kp K_CONTEXT_MENU &kp UP_ARROW &kp ENTER>;
             label = "RENAME_PS";
         };
+
+        PM_first_make: PM_first_make {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp ENTER>,
+                <&macro_wait_time 2000>,
+                <&kp TAB &kp TAB &kp DOWN &kp SPACE &kp TAB &kp TAB &kp TAB &kp ENTER>,
+                <&macro_wait_time 2000>,
+                <&kp TAB &kp TAB &kp SPACE &kp ENTER>,
+                <&macro_wait_time 3000>,
+                <&kp LS(TAB) &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp TAB &kp SPACE &kp ENTER>;
+
+            label = "PM_FIRST_MAKE";
+        };
     };
 
     behaviors {
