@@ -20,9 +20,9 @@ layers:
   - CONTEXT MENU
   - H
   - J
-  - K
+  - {t: K, h: SCROLL}
   - L
-  - {t: ;, h: SCROLL}
+  - {t: ;, h: NUM}
   - Z
   - X
   - {t: C, h: LCTRL}
@@ -34,11 +34,11 @@ layers:
   - {t: M, h: RIGHT SHIFT}
   - {t: ',', h: RCTRL}
   - .
-  - {t: /, h: NUM}
+  - /
   - LEFT SHIFT
   - LCTRL
   - LEFT GUI
-  - {t: Alt+3, h: LEFT ALT}
+  - {t: Alt+3, h: (LEFT ALT)}
   - {t: SPACE, h: ARROW}
   - {t: TAB, h: SYMBOLS}
   - {t: ESCAPE, h: RIGHT ALT}
@@ -240,9 +240,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -327,8 +327,6 @@ combos:
   k: '&mkp MB5'
 - p: [29, 30]
   k: '&mkp MB4'
-- p: [9, 30, 14]
-  k: '&PM_first_make'
 - p: [1, 12, 25]
   k: '&View_Depth_1000'
 - p: [9, 13, 12, 8]
@@ -347,3 +345,5 @@ combos:
   k: '&ISO_P'
 - p: [7, 8, 11, 23]
   k: '&ISO_S'
+- p: [9, 10, 11, 1]
+  k: '&PASS'
