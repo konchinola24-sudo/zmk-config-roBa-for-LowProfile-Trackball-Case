@@ -211,7 +211,7 @@
         PASS: PASS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp N1 &kp LS(C) &kp A &kp D &kp M &kp A &kp T &kp I &kp C &kp PLUS &kp LS(P) &kp LS(N) &kp N2>;
+            bindings = <&kp LS(H) &kp N1 &kp LS(C) &kp A &kp D &kp M &kp A &kp T &kp I &kp C &kp LS(SEMICOLON) &kp LS(P) &kp LS(N) &kp N2>;
             label = "PASS";
         };
     };
